@@ -1,4 +1,4 @@
-//code for assignment 0
+//Fit a set of data to a polynomial of degree n
 //written by Catherine Zheng
 
 
@@ -285,6 +285,7 @@ int main() //main
     }
     cout << endl ;
 
+    //display polynomial
     cout << "the polynomial is:" << endl;
     for (int i=0; i<rows; i++){
         if (i==0){
@@ -312,7 +313,6 @@ int main() //main
         delete [] inverse[i];
         delete [] vtv[i];
     }
-
 
     return 0;
 }
